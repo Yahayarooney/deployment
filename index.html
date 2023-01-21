@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"
+    />
+    <style>
+      body {
+        background-color: #0079c923;
+      }
+      header {
+        padding: 2%;
+        display: flex;
+        justify-content: space-between;
+        background: lightslategray;
+        color: whitesmoke;
+      }
+      .menu {
+        display: flex;
+      }
+      .menu {
+        margin-right: 4%;
+      }
+      .movie-genres {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #000000;
+      }
+      .movie-genres a,
+      .menu a {
+        color: white;
+        padding: 2%;
+        text-decoration: none;
+        font-size: 1.2em;
+      }
+      .movie-genres a:hover {
+        color: darkgray;
+      }
+      h1 {
+        text-align: center;
+        background-color: gray;
+        padding:1%;
+        color: whitesmoke;
+      }
+      section {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 1%;
+        max-width: 100%;
+        overflow: scroll;
+        font-size: smaller;
+      }
+      section img {
+        margin: 1%;
+        border-radius: 5%;
+        width: 100%;
+        height: 78%;
+        cursor: pointer;
+      }
+      section div {
+        margin: 1%;
+      }
+      .button-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      }
+      button {
+        border-radius: 15px;
+        border: none;
+        padding: 4%;
+        background: darkcyan;
+		color: whitesmoke;
+		cursor: pointer;
+      }
+      footer {
+        clear: both;
+        text-align: center;
+        padding: 1%;
+        background: lightslategray;
+        color: whitesmoke;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div>MOVIES SITE</div>
+      <div class="menu">
+        <a href="./contact.html">Contact</a>
+        <a href="./about.html">About</a>
+        <a href="#more">More</a>
+      </div>
+    </header>
+    <div class="movie-genres">
+      <a href="#Action">Action</a>
+      <a href="#Comedy">Comedy</a>
+      <a href="#Thriller">Thriller</a>
+      <a href="#RomCom">RomCom</a>
+    </div>
+    <h1 id="action">Action</h1>
+    <section>
+      <div>
+        <img
+          class="movie-img dim grow"
+          src="./action1.jpg"
+          alt="Movie"
+        />
+        <div class="button-container">
+          <button class="pill-btn">Stream</button>
+          <button class="pill-btn">Download</button>
+        </div>
+      </div>
+      <div>
+        <img
+          class="movie-img dim grow"
+          src="./action2.jpg"
+          alt="Movie"
+        />
+        <div class="button-container">
+          <button class="pill-btn">Stream</button>
+          <button class="pill-btn">Download</button>
+        </div>
+      </div>
+      
+      <div>
+        <img
+          class="movie-img dim grow"
+          src="./action3.jpg"
+          alt="Movie"
+        />
+        <div class="button-container">
+          <button class="pill-btn">Stream</button>
+          <button class="pill-btn">Download</button>
+        </div>
+      </div>
+      <div>
+        <img
+          class="movie-img dim grow"
+          src="./action4.jpg"
+          alt="Movie"
+        />
+        <div class="button-container">
+          <button class="pill-btn">Stream</button>
+          <button class="pill-btn">Download</button>
+        </div>
+      </div>
+      <div>
+        <img
+          class="movie-img dim grow"
+          src="action5.jpg"
+          alt="Movie"
+        />
+        <div class="button-container">
+          <button class="pill-btn">Stream</button>
+          <button class="pill-btn">Download</button>
+        </div>
+      </div>
+      <div>
+        <img
+          class="movie-img dim grow"
+          src="action6.jpg"
+          alt="Movie"
+        />
+        <div class="button-container">
+          <button class="pill-btn">Stream</button>
+          <button class="pill-btn">Download</button>
+        </div>
+      </div>
+      <div>
+        <img
+          class="movie-img dim grow"
+          src="action7.jpg"
+          alt="Movie"
+        />
+        <div class="button-container">
+          <button class="pill-btn">Stream</button>
+          <button class="pill-btn">Download</button>
+        </div>
+      </div>
+    </section>
+    <h1 id="Comedy">Comedy</h1>
+    <section>
+      <div>
+        <img
+          class="movie-img dim grow"
+          src="./comedy.jpg"
+          alt="Movie"
+        />
+        <div class="button-container">
+          <button class="pill-btn">Stream</button>
+          <button class="pill-btn">Download</button>
+        </div>
+      </div>
+      <div>
+        <img
+          class="movie-img dim grow"
+          src="./comedy2.jpg"
+          alt="Movie"
+        />
+        <div class="button-container">
+          <button class="pill-btn">Stream</button>
+          <button class="pill-btn">Download</button>
+        </div>
+      </div>
+      <div>
+        <img
+          class="movie-img dim grow"
+          src="./comedy3.jpg"
+          alt="Movie"
+        />
+        <div class="button-container">
+          <button class="pill-btn">Stream</button>
+          <button class="pill-btn">Download</button>
+        </div>
+      </div>
+      <div>
+        <img
+          class="movie-img dim grow"
+          src="./comedy4.jpg"
+          alt="Movie"
+        />
+        <div class="button-container">
+          <button class="pill-btn">Stream</button>
+          <button class="pill-btn">Download</button>
+        </div>
+      </div>
+      <div>
+        <img
+          class="movie-img dim grow"
+          src="./comedy5.jpg"
+          alt="Movie"
+        />
+        <div class="button-container">
+          <button class="pill-btn">Stream</button>
+          <button class="pill-btn">Download</button>
+        </div>
+      </div>
+      <div>
+        <img
+          class="movie-img dim grow"
+          src="./comedy6.jpg"
+          alt="Movie"
+        />
+        <div class="button-container">
+          <button class="pill-btn">Stream</button>
+          <button class="pill-btn">Download</button>
+        </div>
+      </div>
+    </section>
+    <h1 id="Thriller">Thriller</h1>
+    <section>
+      <div>
+        <img
+          class="movie-img dim grow"
+          src="./thriller1.jpg"
+          alt="Movie"
+        />
+        <div class="button-container">
+          <button class="pill-btn">Stream</button>
+          <button class="pill-btn">Download</button>
+        </div>
+      </div>
+      <div>
+        <img
+          class="movie-img"
+          src="./thriller2.jpg"
+          alt="Movie"
+        />
+        <div class="button-container">
+          <button class="pill-btn">Stream</button>
+          <button class="pill-btn">Download</button>
+        </div>
+      </div>
+      <div>
+        <img
+          class="movie-img"
+          src="./thriller3.jpg"
+          alt="Movie"
+        />
+        <div class="button-container">
+          <button class="pill-btn">Stream</button>
+          <button class="pill-btn">Download</button>
+        </div>
+      </div>
+      <div>
+        <img
+          class="movie-img"
+          src="./thriller4.jpg"
+          alt="Movie"
+        />
+        <div class="button-container">
+          <button class="pill-btn">Stream</button>
+          <button class="pill-btn">Download</button>
+        </div>
+      </div>
+      <div>
+        <img
+          class="movie-img"
+          src="./thriller5.jpg"
+          alt="Movie"
+        />
+        <div class="button-container">
+          <button class="pill-btn">Stream</button>
+          <button class="pill-btn">Download</button>
+        </div>
+      </div>
+      <div>
+        <img
+          class="movie-img"
+          src="./thriller6.jpg"
+          alt="Movie"
+        />
+        <div class="button-container">
+          <button class="pill-btn">Stream</button>
+          <button class="pill-btn">Download</button>
+        </div>
+      </div>
+      <div>
+        <img
+          class="movie-img"
+          src="./thriller7.jpg"
+          alt="Movie"
+        />
+        <div class="button-container">
+          <button class="pill-btn">Stream</button>
+          <button class="pill-btn">Download</button>
+        </div>
+      </div>
+    </section>
+    <h1 id="RomCom">Romcom</h1>
+    <section>
+      <div>
+        <img
+          class="movie-img"
+          src="./romcom1.jpg"
+          alt="Movie"
+        />
+        <div class="button-container">
+          <button class="pill-btn">Stream</button>
+          <button class="pill-btn">Download</button>
+        </div>
+      </div>
+      <div>
+        <img
+          class="movie-img"
+          src="./romcom2.jpg"
+          alt="Movie"
+        />
+        <div class="button-container">
+          <button class="pill-btn">Stream</button>
+          <button class="pill-btn">Download</button>
+        </div>
+      </div>
+      <div>
+        <img
+          class="movie-img"
+          src="./romcom3.jpg"
+          alt="Movie"
+        />
+        <div class="button-container">
+          <button class="pill-btn">Stream</button>
+          <button class="pill-btn">Download</button>
+        </div>
+      </div>
+      <div>
+        <img
+          class="movie-img"
+          src="./romcom4.jpg"
+          alt="Movie"
+        />
+        <div class="button-container">
+          <button class="pill-btn">Stream</button>
+          <button class="pill-btn">Download</button>
+        </div>
+      </div>
+      <div>
+        <img
+          class="movie-img"
+          src="./romcom5.jpg"
+          alt="Movie"
+        />
+        <div class="button-container">
+          <button class="pill-btn">Stream</button>
+          <button class="pill-btn">Download</button>
+        </div>
+      </div>
+      <div>
+        <img
+          class="movie-img"
+          src="./romcom6.jpg"
+          alt="Movie"
+        />
+        <div class="button-container">
+          <button class="pill-btn">Stream</button>
+          <button class="pill-btn">Download</button>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>Copyright © Rooney, Inc. All rights reserved</p>
+      <p>
+        Yahaya Rooney and the Rooney Prime logo are trademarks of
+        moviesSite.com, Inc. or its affiliates.
+      </p>
+    </footer>
+  </body>
+</html>
